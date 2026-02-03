@@ -1,1 +1,5 @@
 # Organizational-Networking-Platform-Data-Model
+
+This repository contains the relational database design for an Organizational Networking Platform. The ER diagram models users, organizations, organizational memberships, and a hierarchical Organizational Tree built from positions rather than users. Users can belong to multiple organizations with different membership types (Full‑Time, Part‑Time, Follower), where only Full‑Time and Part‑Time members can occupy positions in the Org Tree. The hierarchy is represented using self‑referencing positions, supporting vacant roles and founder positions at the top. Social leader–follower connections are modeled independently of organizations, while position assignment history and password recovery are supported through dedicated tables. The design cleanly satisfies all given functional requirements while remaining simple, normalized, and easy to understand at a glance.
+
+<img width="5348" height="3456" alt="Organizational Networking Platform ER Png" src="https://github.com/user-attachments/assets/282f9ac0-affe-4829-bb63-d70ef661e3f6" />
